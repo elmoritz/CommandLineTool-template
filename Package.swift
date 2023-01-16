@@ -11,7 +11,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "POEditor",
+            name: "CLI-Template",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser")
             ]),
