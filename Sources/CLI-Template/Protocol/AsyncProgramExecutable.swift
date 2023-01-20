@@ -1,5 +1,5 @@
 import Foundation
 
-protocol ExecutableProgram {
+protocol AsyncProgramExecutable {
     func run() async throws
 }

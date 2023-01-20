@@ -26,7 +26,7 @@ public class Program: ParsableCommand, AsyncParsableCommand {
     }
 
     public func run() async throws {
-        let executable: ExecutableProgram?
+        let executable: AsyncProgramExecutable?
         switch program {
         case .type_a:
             executable = AppOne()

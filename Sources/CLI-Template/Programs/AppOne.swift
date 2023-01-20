@@ -1,6 +1,6 @@
 import Foundation
 
-struct AppOne: ExecutableProgram {
+struct AppOne: AsyncProgramExecutable {
     enum AppAError: Error {
         case somethingWentWrong
     }
