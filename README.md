@@ -1,3 +1,3 @@
-# Swift-CLI
+# POEditor
 
-A template for an async/await compatible command line tool written in swift.
+A description of this package.
