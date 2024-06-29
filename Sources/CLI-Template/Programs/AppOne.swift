@@ -5,11 +5,7 @@ struct AppOne: AsyncProgramExecutable {
         case somethingWentWrong
     }
 
-    init() {
+    init() {}
 
-    }
-
-    func run() async throws {
-
-    }
+    func run() async throws {}
 }

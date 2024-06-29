@@ -7,13 +7,14 @@ let package = Package(
     platforms: [.macOS(.v13)],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git",
-                 from: "1.0.2")
+                 from: "1.0.2"),
     ],
     targets: [
         .executableTarget(
             name: "CLI-Template",
             dependencies: [
-                .product(name: "ArgumentParser", package: "swift-argument-parser")
-            ]),
+                .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            ]
+        ),
     ]
 )

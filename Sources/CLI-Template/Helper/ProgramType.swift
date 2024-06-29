@@ -1,5 +1,5 @@
-import Foundation
 import ArgumentParser
+import Foundation
 
 enum ProgramType: String, ExpressibleByArgument, CaseIterable {
     case type_a
@@ -21,4 +21,4 @@ enum ProgramType: String, ExpressibleByArgument, CaseIterable {
     }
 }
 
-extension ProgramType: Codable { }
+extension ProgramType: Codable {}

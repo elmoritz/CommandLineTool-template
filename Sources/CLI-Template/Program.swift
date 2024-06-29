@@ -1,5 +1,5 @@
-import Foundation
 import ArgumentParser
+import Foundation
 
 public class Program: ParsableCommand, AsyncParsableCommand {
     enum CodingKeys: CodingKey {
@@ -21,9 +21,7 @@ public class Program: ParsableCommand, AsyncParsableCommand {
     @Argument(help: "Root folder")
     var program: ProgramType = .type_a
 
-    required public init() {
-
-    }
+    public required init() {}
 
     public func run() async throws {
         let executable: AsyncProgramExecutable?
